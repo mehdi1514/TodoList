@@ -1,0 +1,56 @@
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f4f8; /* Light background */
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px; /* Set a width for the form */
+    background: white; /* White background for the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.auth-input {
+    margin-bottom: 15px; /* Space between inputs */
+    padding: 10px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+}
+
+.auth-input:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove outline */
+}
+
+.auth-button {
+    padding: 10px;
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.auth-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.auth-container p {
+    margin-top: 15px; /* Space above the paragraph */
+}
+
+.error-message {
+    color: red;
+    margin: 10px 0;
+    font-size: 0.9em;
+}

@@ -10,7 +10,8 @@ h1,
 h2,
 h3,
 input,
-button {
+button,
+span {
   font-family: 'Press Start 2P', system-ui;
 }
 
@@ -98,9 +99,59 @@ p {
   cursor: pointer;
 }
 
+.todoItem.completed p {
+  text-decoration: line-through;
+  color: #000;
+}
+
 .actionsContainer button:hover {
   opacity: 0.7;
 }
+
+.logout-button {
+  top: 20px; 
+  right: 20px;
+  padding: 10px 15px; 
+  background-color: transparent; 
+  color: black; 
+  border: 2px solid black; 
+  border-radius: 5px; 
+  cursor: pointer;
+  transition: background-color 0.3s; 
+  z-index: 10; 
+}
+
+.logout-button:hover {
+  background-color: rgba(0, 0, 0, 0.1); 
+}
+
+.center-text {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between; /* Space between title and user info */
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.title {
+  font-size: 24px;
+  margin: 0; /* Remove default margin */
+  flex-grow: 1; /* Allow title to take up remaining space */
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Push user info to the right */
+}
+
+.username {
+  margin-right: 20px; /* Space between username and logout button */
+}
+
 
 
 
