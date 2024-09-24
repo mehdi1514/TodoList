@@ -2,7 +2,8 @@
 
 A simple Todo List application built with React.js. This application allows users to add, edit, and delete todos. Todos are stored locally using `localStorage`, so they persist across browser sessions.
 
-![Todo List Screenshot](./screenshot.png) 
+![Todo List Screenshot](https://github.com/user-attachments/assets/94b66602-6de2-4958-b17b-c1ec9db3f47a)
+
 
 ## Features
 
